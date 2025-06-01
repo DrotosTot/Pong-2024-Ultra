@@ -20,9 +20,11 @@ Requirements:
 Originally, the AY-3-8500 IC was designed for a 6-volt battery operation. Therefore, a a minimum 7.5VDC, maximum 9VDC transformer power source is recommended as the main power source.
 The 6VDC (shown as VCC on the schematic) is produced by a 7806 voltage regulator IC, the 5VDC (shown as +5V on the schematic) required for the other circuits is produced by an MC33269-5.0 LDO IC.
 Due to the heat, it is recommended to use a heatsink for the 7806.
- 
+(https://github.com/DrotosTot/Pong-2024-Ultra/blob/main/images/1_sch_psu.png) 
+
 Two clock signals are required for operation, 2 MHz for the game IC and one for the composite video signal. A clock signal of 14.31818 MHz must be generated for an NTSC, and 17.734480 MHz for a PAL video signal. A corresponding quartz crystal must be used in the clock signal generator.
- 
+(https://github.com/DrotosTot/Pong-2024-Ultra/blob/main/images/1_sch_clock.png)
+
 # 2., Main game circuit
 Following the recommendations of the manufacturer General Instrument, the circuits of the main IC were designed accordingly. The sound amplifier and the speaker with the mode change switches and the indicator LEDs were placed on this part of the drawing. The socket for the controllers is located there, also.
  
