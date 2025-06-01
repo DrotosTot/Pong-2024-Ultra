@@ -1,1 +1,2 @@
 PCB gerber files
+Can be upload directly to jlcpcb.com
